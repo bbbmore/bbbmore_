@@ -1,281 +1,777 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.1.js"></script>
+    <script>
+
+                 
+            let luckyNo = Math.floor((Math.random() * 52)) + 1; 
+            let luckyNoNo = Math.floor((Math.random() * 52)+ 1); 
+            let flop_one = Math.floor((Math.random() * 52)+ 1); 
+            let flop_two = Math.floor((Math.random() * 52)+ 1); 
+            let flop_three = Math.floor((Math.random() * 52)+ 1); 
+            
+            
+        function card_go() {   
+
+
+            if(luckyNo == 1) {
+            alert("다이아" + "A카드입니다.");   
+        } else if(luckyNo == 2){
+            alert("다이아" + luckyNo + "입니다.");   
+        } else if(luckyNo == 3){
+            alert("다이아" + luckyNo + "입니다.");    
+        } else if(luckyNo == 4){
+            alert("다이아" + luckyNo + "입니다.");   
+        } else if(luckyNo == 5){
+            alert("다이아" + luckyNo + "입니다.");   
+        } else if(luckyNo == 6){
+            alert("다이아" + luckyNo + "입니다.");   
+        } else if(luckyNo == 7){
+            alert("다이아" + luckyNo + "입니다.");   
+        } else if(luckyNo == 8){
+            alert("다이아" + luckyNo + "입니다.");   
+        } else if(luckyNo == 9){
+            alert("다이아" + luckyNo + "입니다.");   
+        } else if(luckyNo == 10){
+            alert("다이아" + luckyNo + "입니다.");  
+        } else if(luckyNo == 11){
+            alert("다이아 J입니다.");   
+        }else if(luckyNo == 12){
+            alert("다이아 Q 입니다.");   
+        }else if(luckyNo == 13){
+            alert("다이아 K 입니다.");   
+        }
+
+        else if(luckyNo == 14){
+            alert("하트 A입니다.");   
+        }
+        else if(luckyNo == 15){
+            alert("하트 2입니다.");   
+        }
+        else if(luckyNo == 16){
+            alert("하트 3입니다.");   
+        }
+        else if(luckyNo == 17){
+            alert("하트 4입니다.");  
+        }
+        else if(luckyNo == 18){
+            alert("하트 5입니다.");  
+        }
+        else if(luckyNo == 19){
+            alert("하트 6입니다.");  
+        }
+        else if(luckyNo == 20){
+            alert("하트 7입니다.");   
+        }
+        else if(luckyNo == 21){
+            alert("하트 8입니다.");   
+        }else if(luckyNo == 22){
+            alert("하트 9입니다.");   
+        }else if(luckyNo == 23){
+            alert("하트 10입니다.");   
+        }else if(luckyNo == 24){
+            alert("하트 J입니다.");   
+        }else if(luckyNo == 25){
+            alert("하트 Q입니다.");   
+        }else if(luckyNo == 26){
+            alert("하트 K입니다.");   
+        } 
+        
+        else if(luckyNo == 27){
+            alert("스페이드 A입니다.");   
+        }
+        else if(luckyNo == 28){
+            alert("스페이드 2입니다.");   
+        }
+        else if(luckyNo == 29){
+            alert("스페이드 3입니다.");   
+        }
+        else if(luckyNo == 30){
+            alert("스페이드 4입니다.");  
+        }
+        else if(luckyNo == 31){
+            alert("스페이드 5입니다.");  
+        }
+        else if(luckyNo == 32){
+            alert("스페이드 6입니다.");  
+        }
+        else if(luckyNo == 33){
+            alert("스페이드 7입니다.");   
+        }
+        else if(luckyNo == 34){
+            alert("스페이드 8입니다.");   
+        }else if(luckyNo == 35){
+            alert("스페이드 9입니다.");   
+        }else if(luckyNo == 36){
+            alert("스페이드 10입니다.");   
+        }else if(luckyNo == 37){
+            alert("스페이드 J입니다.");   
+        }else if(luckyNo == 38){
+            alert("스페이드 Q입니다.");   
+        }else if(luckyNo == 39){
+            alert("스페이드 K입니다.");   
+        }
+
+        else if(luckyNo == 40){
+            alert("클로버 A입니다.");   
+        }
+        else if(luckyNo == 41){
+            alert("클로버 2입니다.");   
+        }
+        else if(luckyNo == 42){
+            alert("클로버 3입니다.");   
+        }
+        else if(luckyNo == 43){
+            alert("클로버 4입니다.");  
+        }
+        else if(luckyNo == 44){
+            alert("클로버 5입니다.");  
+        }
+        else if(luckyNo == 45){
+            alert("클로버 6입니다.");  
+        }
+        else if(luckyNo == 46){
+            alert("클로버 7입니다.");   
+        }
+        else if(luckyNo == 47){
+            alert("클로버 8입니다.");   
+        }else if(luckyNo == 48){
+            alert("클로버 9입니다.");   
+        }else if(luckyNo == 49){
+            alert("클로버 10입니다.");   
+        }else if(luckyNo == 50){
+            alert("클로버 J입니다.");   
+        }else if(luckyNo == 51){
+            alert("클로버 Q입니다.");   
+        }else if(luckyNo == 52){
+            alert("클로버 K입니다.");   
+        }
+        
+ }
+
+        // $(function() {
+        //     $(".card_one").on("change", function() {
+        //         $(".txt").text($(alert).val());
+        //     });
+        // });
+        
+
+
+ 
+
+        function card_go_two() {               
+
+     if(luckyNoNo == 1) {
+     alert("다이아" + "A카드입니다.");   
+ } else if(luckyNoNo == 2){
+     alert("다이아" + luckyNoNo + "입니다.");   
+ } else if(luckyNoNo == 3){
+     alert("다이아" + luckyNoNo + "입니다.");    
+ } else if(luckyNoNo == 4){
+     alert("다이아" + luckyNoNo + "입니다.");   
+ } else if(luckyNoNo == 5){
+     alert("다이아" + luckyNoNo + "입니다.");   
+ } else if(luckyNoNo == 6){
+     alert("다이아" + luckyNoNo + "입니다.");   
+ } else if(luckyNoNo == 7){
+     alert("다이아" + luckyNoNo + "입니다.");   
+ } else if(luckyNoNo == 8){
+     alert("다이아" + luckyNoNo + "입니다.");   
+ } else if(luckyNoNo == 9){
+     alert("다이아" + luckyNoNo + "입니다.");   
+ } else if(luckyNoNo == 10){
+     alert("다이아" + luckyNoNo + "입니다.");  
+ } else if(luckyNoNo == 11){
+     alert("다이아 J입니다.");   
+ }else if(luckyNoNo == 12){
+     alert("다이아 Q 입니다.");   
+ }else if(luckyNoNo == 13){
+     alert("다이아 K 입니다.");   
+ }
+
+ else if(luckyNoNo == 14){
+     alert("하트 A입니다.");   
+ }
+ else if(luckyNoNo == 15){
+     alert("하트 2입니다.");   
+ }
+ else if(luckyNoNo == 16){
+     alert("하트 3입니다.");   
+ }
+ else if(luckyNoNo == 17){
+     alert("하트 4입니다.");  
+ }
+ else if(luckyNoNo == 18){
+     alert("하트 5입니다.");  
+ }
+ else if(luckyNoNo == 19){
+     alert("하트 6입니다.");  
+ }
+ else if(luckyNoNo == 20){
+     alert("하트 7입니다.");   
+ }
+ else if(luckyNoNo == 21){
+     alert("하트 8입니다.");   
+ }else if(luckyNoNo == 22){
+     alert("하트 9입니다.");   
+ }else if(luckyNoNo == 23){
+     alert("하트 10입니다.");   
+ }else if(luckyNoNo == 24){
+     alert("하트 J입니다.");   
+ }else if(luckyNoNo == 25){
+     alert("하트 Q입니다.");   
+ }else if(luckyNoNo == 26){
+     alert("하트 K입니다.");   
+ } 
+ 
+ else if(luckyNoNo == 27){
+     alert("스페이드 A입니다.");   
+ }
+ else if(luckyNoNo == 28){
+     alert("스페이드 2입니다.");   
+ }
+ else if(luckyNoNo == 29){
+     alert("스페이드 3입니다.");   
+ }
+ else if(luckyNoNo == 30){
+     alert("스페이드 4입니다.");  
+ }
+ else if(luckyNoNo == 31){
+     alert("스페이드 5입니다.");  
+ }
+ else if(luckyNoNo == 32){
+     alert("스페이드 6입니다.");  
+ }
+ else if(luckyNoNo == 33){
+     alert("스페이드 7입니다.");   
+ }
+ else if(luckyNoNo == 34){
+     alert("스페이드 8입니다.");   
+ }else if(luckyNoNo == 35){
+     alert("스페이드 9입니다.");   
+ }else if(luckyNoNo == 36){
+     alert("스페이드 10입니다.");   
+ }else if(luckyNoNo == 37){
+     alert("스페이드 J입니다.");   
+ }else if(luckyNoNo == 38){
+     alert("스페이드 Q입니다.");   
+ }else if(luckyNoNo == 39){
+     alert("스페이드 K입니다.");   
+ }
+
+ else if(luckyNoNo == 40){
+     alert("클로버 A입니다.");   
+ }
+ else if(luckyNoNo == 41){
+     alert("클로버 2입니다.");   
+ }
+ else if(luckyNoNo == 42){
+     alert("클로버 3입니다.");   
+ }
+ else if(luckyNoNo == 43){
+     alert("클로버 4입니다.");  
+ }
+ else if(luckyNoNo == 44){
+     alert("클로버 5입니다.");  
+ }
+ else if(luckyNoNo == 45){
+     alert("클로버 6입니다.");  
+ }
+ else if(luckyNoNo == 46){
+     alert("클로버 7입니다.");   
+ }
+ else if(luckyNoNo == 47){
+     alert("클로버 8입니다.");   
+ }else if(luckyNoNo == 48){
+     alert("클로버 9입니다.");   
+ }else if(luckyNoNo == 49){
+     alert("클로버 10입니다.");   
+ }else if(luckyNoNo == 50){
+     alert("클로버 J입니다.");   
+ }else if(luckyNoNo == 51){
+     alert("클로버 Q입니다.");   
+ }else if(luckyNoNo == 52){
+     alert("클로버 K입니다.");   
+ } // 중복일 시
+ else if(luckyNoNo == luckyNo) {
+        luckyNoNo++;
+ } 
+ 
+}
+
+function flop_NoOne() {               
+
+if(flop_one == 1) {
+alert("다이아" + "A카드입니다.");   
+} else if(flop_one == 2){
+alert("다이아" + flop_one + "입니다.");   
+} else if(flop_one == 3){
+alert("다이아" + flop_one + "입니다.");    
+} else if(flop_one == 4){
+alert("다이아" + flop_one + "입니다.");   
+} else if(flop_one == 5){
+alert("다이아" + flop_one + "입니다.");   
+} else if(flop_one == 6){
+alert("다이아" + flop_one + "입니다.");   
+} else if(flop_one == 7){
+alert("다이아" + flop_one + "입니다.");   
+} else if(flop_one == 8){
+alert("다이아" + flop_one + "입니다.");   
+} else if(flop_one == 9){
+alert("다이아" + flop_one + "입니다.");   
+} else if(flop_one == 10){
+alert("다이아" + flop_one + "입니다.");  
+} else if(flop_one == 11){
+alert("다이아 J입니다.");   
+}else if(flop_one == 12){
+alert("다이아 Q 입니다.");   
+}else if(flop_one == 13){
+alert("다이아 K 입니다.");   
+}
+
+else if(flop_one == 14){
+alert("하트 A입니다.");   
+}
+else if(flop_one == 15){
+alert("하트 2입니다.");   
+}
+else if(flop_one == 16){
+alert("하트 3입니다.");   
+}
+else if(flop_one == 17){
+alert("하트 4입니다.");  
+}
+else if(flop_one == 18){
+alert("하트 5입니다.");  
+}
+else if(flop_one == 19){
+alert("하트 6입니다.");  
+}
+else if(flop_one == 20){
+alert("하트 7입니다.");   
+}
+else if(flop_one == 21){
+alert("하트 8입니다.");   
+}else if(flop_one == 22){
+alert("하트 9입니다.");   
+}else if(flop_one == 23){
+alert("하트 10입니다.");   
+}else if(flop_one == 24){
+alert("하트 J입니다.");   
+}else if(flop_one == 25){
+alert("하트 Q입니다.");   
+}else if(flop_one == 26){
+alert("하트 K입니다.");   
+} 
+
+else if(flop_one == 27){
+alert("스페이드 A입니다.");   
+}
+else if(flop_one == 28){
+alert("스페이드 2입니다.");   
+}
+else if(flop_one == 29){
+alert("스페이드 3입니다.");   
+}
+else if(flop_one == 30){
+alert("스페이드 4입니다.");  
+}
+else if(flop_one == 31){
+alert("스페이드 5입니다.");  
+}
+else if(flop_one == 32){
+alert("스페이드 6입니다.");  
+}
+else if(flop_one == 33){
+alert("스페이드 7입니다.");   
+}
+else if(flop_one == 34){
+alert("스페이드 8입니다.");   
+}else if(flop_one == 35){
+alert("스페이드 9입니다.");   
+}else if(flop_one == 36){
+alert("스페이드 10입니다.");   
+}else if(flop_one == 37){
+alert("스페이드 J입니다.");   
+}else if(flop_one == 38){
+alert("스페이드 Q입니다.");   
+}else if(flop_one == 39){
+alert("스페이드 K입니다.");   
+}
+
+else if(flop_one == 40){
+alert("클로버 A입니다.");   
+}
+else if(flop_one == 41){
+alert("클로버 2입니다.");   
+}
+else if(flop_one == 42){
+alert("클로버 3입니다.");   
+}
+else if(flop_one == 43){
+alert("클로버 4입니다.");  
+}
+else if(flop_one == 44){
+alert("클로버 5입니다.");  
+}
+else if(flop_one == 45){
+alert("클로버 6입니다.");  
+}
+else if(flop_one == 46){
+alert("클로버 7입니다.");   
+}
+else if(flop_one == 47){
+alert("클로버 8입니다.");   
+}else if(flop_one == 48){
+alert("클로버 9입니다.");   
+}else if(flop_one == 49){
+alert("클로버 10입니다.");   
+}else if(flop_one == 50){
+alert("클로버 J입니다.");   
+}else if(flop_one == 51){
+alert("클로버 Q입니다.");   
+}else if(flop_one == 52){
+alert("클로버 K입니다.");   
+} // 중복일 시
+else if(flop_one == luckyNoNo || flop_one == luckyNo) {
+   flop_one++;
+} 
+
+}
+
+function flop_NoTwo() {               
+
+if(flop_two == 1) {
+alert("다이아" + "A카드입니다.");   
+} else if(flop_two == 2){
+alert("다이아" + flop_two + "입니다.");   
+} else if(flop_two == 3){
+alert("다이아" + flop_two + "입니다.");    
+} else if(flop_two == 4){
+alert("다이아" + flop_two + "입니다.");   
+} else if(flop_two == 5){
+alert("다이아" + flop_two + "입니다.");   
+} else if(flop_two == 6){
+alert("다이아" + flop_two + "입니다.");   
+} else if(flop_two == 7){
+alert("다이아" + flop_two + "입니다.");   
+} else if(flop_two == 8){
+alert("다이아" + flop_two + "입니다.");   
+} else if(flop_two == 9){
+alert("다이아" + flop_two + "입니다.");   
+} else if(flop_two == 10){
+alert("다이아" + flop_two + "입니다.");  
+} else if(flop_two == 11){
+alert("다이아 J입니다.");   
+}else if(flop_two == 12){
+alert("다이아 Q 입니다.");   
+}else if(flop_two == 13){
+alert("다이아 K 입니다.");   
+}
+
+else if(flop_two == 14){
+alert("하트 A입니다.");   
+}
+else if(flop_two == 15){
+alert("하트 2입니다.");   
+}
+else if(flop_two == 16){
+alert("하트 3입니다.");   
+}
+else if(flop_two == 17){
+alert("하트 4입니다.");  
+}
+else if(flop_two == 18){
+alert("하트 5입니다.");  
+}
+else if(flop_two == 19){
+alert("하트 6입니다.");  
+}
+else if(flop_two == 20){
+alert("하트 7입니다.");   
+}
+else if(flop_two == 21){
+alert("하트 8입니다.");   
+}else if(flop_two == 22){
+alert("하트 9입니다.");   
+}else if(flop_two == 23){
+alert("하트 10입니다.");   
+}else if(flop_two == 24){
+alert("하트 J입니다.");   
+}else if(flop_two == 25){
+alert("하트 Q입니다.");   
+}else if(flop_two == 26){
+alert("하트 K입니다.");   
+} 
+
+else if(flop_two == 27){
+alert("스페이드 A입니다.");   
+}
+else if(flop_two == 28){
+alert("스페이드 2입니다.");   
+}
+else if(flop_two == 29){
+alert("스페이드 3입니다.");   
+}
+else if(flop_two == 30){
+alert("스페이드 4입니다.");  
+}
+else if(flop_two == 31){
+alert("스페이드 5입니다.");  
+}
+else if(flop_two == 32){
+alert("스페이드 6입니다.");  
+}
+else if(flop_two == 33){
+alert("스페이드 7입니다.");   
+}
+else if(flop_two == 34){
+alert("스페이드 8입니다.");   
+}else if(flop_two == 35){
+alert("스페이드 9입니다.");   
+}else if(flop_two == 36){
+alert("스페이드 10입니다.");   
+}else if(flop_two == 37){
+alert("스페이드 J입니다.");   
+}else if(flop_two == 38){
+alert("스페이드 Q입니다.");   
+}else if(flop_two == 39){
+alert("스페이드 K입니다.");   
+}
+
+else if(flop_two == 40){
+alert("클로버 A입니다.");   
+}
+else if(flop_two == 41){
+alert("클로버 2입니다.");   
+}
+else if(flop_two == 42){
+alert("클로버 3입니다.");   
+}
+else if(flop_two == 43){
+alert("클로버 4입니다.");  
+}
+else if(flop_two == 44){
+alert("클로버 5입니다.");  
+}
+else if(flop_two == 45){
+alert("클로버 6입니다.");  
+}
+else if(flop_two == 46){
+alert("클로버 7입니다.");   
+}
+else if(flop_two == 47){
+alert("클로버 8입니다.");   
+}else if(flop_two == 48){
+alert("클로버 9입니다.");   
+}else if(flop_two == 49){
+alert("클로버 10입니다.");   
+}else if(flop_two == 50){
+alert("클로버 J입니다.");   
+}else if(flop_two == 51){
+alert("클로버 Q입니다.");   
+}else if(flop_two == 52){
+alert("클로버 K입니다.");   
+} // 중복일 시
+else if(flop_two == luckyNoNo || flop_two == luckyNo || flop_two == flop_one) {
+   flop_two++;
+} 
+
+}
+
+function flop_NoThree() {               
+
+if(flop_three == 1) {
+alert("다이아" + "A카드입니다.");   
+} else if(flop_three == 2){
+alert("다이아" + flop_three + "입니다.");   
+} else if(flop_three == 3){
+alert("다이아" + flop_three + "입니다.");    
+} else if(flop_three == 4){
+alert("다이아" + flop_three + "입니다.");   
+} else if(flop_three == 5){
+alert("다이아" + flop_three + "입니다.");   
+} else if(flop_three == 6){
+alert("다이아" + flop_three + "입니다.");   
+} else if(flop_three == 7){
+alert("다이아" + flop_three + "입니다.");   
+} else if(flop_three == 8){
+alert("다이아" + flop_three + "입니다.");   
+} else if(flop_three == 9){
+alert("다이아" + flop_three + "입니다.");   
+} else if(flop_three == 10){
+alert("다이아" + flop_three + "입니다.");  
+} else if(flop_three == 11){
+alert("다이아 J입니다.");   
+}else if(flop_three == 12){
+alert("다이아 Q 입니다.");   
+}else if(flop_three == 13){
+alert("다이아 K 입니다.");   
+}
+
+else if(flop_three == 14){
+alert("하트 A입니다.");   
+}
+else if(flop_three == 15){
+alert("하트 2입니다.");   
+}
+else if(flop_three == 16){
+alert("하트 3입니다.");   
+}
+else if(flop_three == 17){
+alert("하트 4입니다.");  
+}
+else if(flop_three == 18){
+alert("하트 5입니다.");  
+}
+else if(flop_three == 19){
+alert("하트 6입니다.");  
+}
+else if(flop_three == 20){
+alert("하트 7입니다.");   
+}
+else if(flop_three == 21){
+alert("하트 8입니다.");   
+}else if(flop_three == 22){
+alert("하트 9입니다.");   
+}else if(flop_three == 23){
+alert("하트 10입니다.");   
+}else if(flop_three == 24){
+alert("하트 J입니다.");   
+}else if(flop_three == 25){
+alert("하트 Q입니다.");   
+}else if(flop_three == 26){
+alert("하트 K입니다.");   
+} 
+
+else if(flop_three == 27){
+alert("스페이드 A입니다.");   
+}
+else if(flop_three == 28){
+alert("스페이드 2입니다.");   
+}
+else if(flop_three == 29){
+alert("스페이드 3입니다.");   
+}
+else if(flop_three == 30){
+alert("스페이드 4입니다.");  
+}
+else if(flop_three == 31){
+alert("스페이드 5입니다.");  
+}
+else if(flop_three == 32){
+alert("스페이드 6입니다.");  
+}
+else if(flop_three == 33){
+alert("스페이드 7입니다.");   
+}
+else if(flop_three == 34){
+alert("스페이드 8입니다.");   
+}else if(flop_three == 35){
+alert("스페이드 9입니다.");   
+}else if(flop_three == 36){
+alert("스페이드 10입니다.");   
+}else if(flop_three == 37){
+alert("스페이드 J입니다.");   
+}else if(flop_three == 38){
+alert("스페이드 Q입니다.");   
+}else if(flop_three == 39){
+alert("스페이드 K입니다.");   
+}
+
+else if(flop_three == 40){
+alert("클로버 A입니다.");   
+}
+else if(flop_three == 41){
+alert("클로버 2입니다.");   
+}
+else if(flop_three == 42){
+alert("클로버 3입니다.");   
+}
+else if(flop_three == 43){
+alert("클로버 4입니다.");  
+}
+else if(flop_three == 44){
+alert("클로버 5입니다.");  
+}
+else if(flop_three == 45){
+alert("클로버 6입니다.");  
+}
+else if(flop_three == 46){
+alert("클로버 7입니다.");   
+}
+else if(flop_three == 47){
+alert("클로버 8입니다.");   
+}else if(flop_three == 48){
+alert("클로버 9입니다.");   
+}else if(flop_three == 49){
+alert("클로버 10입니다.");   
+}else if(flop_three == 50){
+alert("클로버 J입니다.");   
+}else if(flop_three == 51){
+alert("클로버 Q입니다.");   
+}else if(flop_three == 52){
+alert("클로버 K입니다.");   
+} // 중복일 시
+else if(flop_three == luckyNoNo || flop_three == luckyNo || flop_three == flop_one || flop_three == flop_two) {
+   flop_three++;
+} 
+
+}
+
+    function fold() {
+    alert("폴드하셨습니다. 새로운 카드를 나눠드립니다.")
+    location.reload()
+}
+
+    function bet() {
+    alert("2배로 베팅합니다.")
+
+}
+
+
+    </script>
+
+    <style>
+
+       .all button {
+            width: 108px;
+            height: 170px;
+            margin: 5px;
+        }
+
+    </style>
 
 </head>
-<style>
-    @charset "UTF-8";
-
-body {
-   font-family: 맑은 고딕, 바탕체;
-    background: radial-gradient(#FFF0F5, #d3d3eb);
-   cursor: url('https://ani.cursors-4u.net/toons/too-12/too1130.cur')
-   , auto !important;
-     text-align: center;
-      margin: 15px 400px 15px 400px; 
-     width: 1080px;   /* 문서 전체의 폭(가로) 크기 설정 */
-  }
-  
-  #container h1 {
-      font-family: 'BMJUA';
-  }
-  
-  @font-face {
-   font-family: 'BMJUA';
-   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
-}
-  
-   @font-face {
-   font-family: 'Pretendard-Regular';
-   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-   font-weight: 400;
-   font-style: normal;
-}
-
-   @font-face {
-   font-family: 'IM_Hyemin-Bold';
-   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
-   font-weight: normal;
-   font-style: normal;
-}
-
-@font-face {
-   font-family: 'SpoqaHanSansNeo-Regular';
-   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
-}
-
-     #container h1{
-   font-family: 'IM_Hyemin-Bold', '맑은 고딕';
-   font-weight: bold;
-  }
-  
-     /* 전체 div 태그에 대한 디자인 적용 */
-  #container {
-     background-color: #d3d3eb;
-  }
-  
-  /* 헤더 고정. 변경하지 말기. */
-  header {
-   padding:50px;
-     height: 60px;
-     text-align:center;
-      color:    #333;
-  }
-
-  
-     /* header 영역 중에서 로그인 영역에 대한 디자인 적용 */
-  #main {
-     float: right;   /*오른쪽으로*/
-     margin: -20px 20px 0 0;   /*여백 주기*/
-     font-size: 12px;
-     text-shadow: 1px 2px 2px #666;
-  }
-  
-  /* 로그인 영역의 a링크 태그 영역 디자인 적용 */
-  #main a {
-        word-spacing: 4px;  /*글자와 글자 사이의 간격*/
-     color: #fbfdbb;
-     text-decoration: none; 
-  } 
-  
-  #main a:hover{
-        color: #05facf;
-  }
-   
-        #navi {
-     background-color: #E6E6FA;
-     width: 1080px;
-     height: 80px;
-     text-decoration: none; 
-     color: #333;
-     
-  }
-  
-     #navi ul li {
-     font-family: 맑은 고딕;
-     display: inline-block; /* 수직 메뉴를 수평으로 변경 */
-     margin: 20px 50px; /* 상하, 좌우 */
-     padding: 5px;
-     font-size: 23px;
-  }
-  
-  
-     #navi a {
-     margin-top: -15px;
-     color: #fff;
-     text-decoration: none;
-     font-weight: bold;
-     font-size: 20px;
-  }
-  
-     /* 태그에 마우스 오버 시, 클릭 시, 포커스가 올라갔을 때
-     디자인 적용 */
-      #navi a:hover, #navi a:active, #navi a:focus {
-        text-shadow: 0px 2px 2px #DB7093;
-        color: #D8BFD8;
-       transition: all ease .5s 0s;
-  }
-  
-     /* section 영역 디자인 적용 */
-      #content {
-    background-color: #FFF0F5;
-     width: 978px;
-     padding:50px; 
-     float: right;
-     border: 1px solid #a7a7d3;  /*테두리 설정*/
-
-  }
-         
-      #content article h2 {
-       font-family: 'BMJUA', '맑은 고딕';
-          font-size: 32px;
-          font-weight: bold;
-        color: #aaaaee;
-  }
-  
-         #content article h3 {
-       font-family: 'BMJUA','Pretendard-Regular';
-          font-size: 27px;
-          font-weight: bold;
-        color: #91c8ff;
-  }
-  
-         #content article p {
-       font-family: 'BMJUA', 맑은 고딕;
-          font-size: 17px;
-         color: #000000;
-  }
-  
-          #photo img{
-        border: 5px solid #E6E6FA;  /*테두리 설정*/
-                  opacity: 0.7;
-  }
-        
-         #photo img:hover {
-       border: 5px solid #E6E6FA;  /*테두리 설정*/
-       opacity: 1;
-       transform:scale(1.025);
-       transition: all ease .5s 0s;
-  }
-  
-  
-     
-    /* footer 영역 디자인 적용 */
-     #foot {
-         font-family: 맑은 고딕;
-        text-align: center;
-        font-size: 15px;
-        background-color: #E6E6FA;
-        color: #9370DB;
-        padding: 5px 0;
-        clear: both;     /*float 속성 해제 */
-     }
-     
-     
-     
-
-     
-</style>
-
 <body>
+    <div class="all">
+      <button class="card_one" onclick="card_go()">card1</button> 
+        <button class="card_two" onclick="card_go_two()">card2</button> 
 
-	  <div id="container">
-   
-      <header id="head"> <!-- 웹 문서의 상단 영역 -->
-         <div id= "main">
-         <a href="aboutme.html">  HOME  </a>
-         <a href="uidesign.html">  HELLO  </a>
-           <img src="../images/bmo.png" width="25" height="25">
-         
-         </div> <!-- id="login" end -->
+        <br><br><br>
 
-         <h1> My Portfolio </h1>  
-      </header>
-      
-      
-      
-         <!-- 웹 문서의 네비게이션 영역 - 메뉴가 설정되는 영역 - -->
-   <nav id = "navi">
-      <ul>
-      
-          <li> <a href = "aboutme.html"> A B O U T &nbsp; M E  </a></li>
-         <li> <a href = "resume.html"> R E S U M E  </a></li>
-         <li> <a href = "portfolio.html"> P O R T F O L I O </a></li>
-         <li> <a href = "contact.html"> C O N T A C T </a></li>
-         
-      </ul>
-   </nav>
-      
-      
-      <!-- 웹 문서의 영역 설정 태그. - section 태그는 여러 번 사용이 가능함. - -->
-  			 <section id="content">
+        <button class="flop_NoOne" onclick="flop_NoOne()">flop1</button> 
+        <button class="flop_NoTwo" onclick="flop_NoTwo()">flop2</button> 
+        <button class="flop_NoThree" onclick="flop_NoThree()">flop3</button> 
 
-		      <!-- section 영역의 본문 -->
-		      <article>
-      
-               <div>
-         
-            <img src="meme.png" width="200" height="200">
-      		<br><br><br>
-     
-          <img src="../images/mymelody.png" width="40" height="40">
-          <img src="../images/mymelody.png" width="40" height="40">
-          <img src="../images/mymelody.png" width="40" height="40">
+        <br><br>
 
-	
-	         <h2> A B O U T &nbsp; M E </h2> <br>
-	         <h3> Name </h3> 
-	         <p>  공현진(Kong hyunjin) </p>  
-	        <br>
-	        <h3> Birth </h3> 
-	        <p>  1995.04.25 </p> 
-	        <br>
-	        <h3> E-mail </h3> 
-            <p> icebear0425@naver.com </p>
-            <br>
-            <h3> Phone </h3> 
-            <p> 010-3903-8358 </p>
-            <br>
-                
-                
-                  <section id="photo">      
-             <h3> <br> LIKES </h3>
-             
-               <p>  <br> Travel </p>
-         <img src="../images/travel1.jpg" width="300" height="300" onclick="window.open(this.src)">
-         <img src="../images/travel2.jpg" width="300" height="300" onclick="window.open(this.src)"><br>
-      	 <img src="../images/travel3.jpg" width="300" height="300" onclick="window.open(this.src)">
-         <img src="../images/travel4.jpg" width="300" height="300" onclick="window.open(this.src)">
-                      
-               
-               <p>  <br> My cat  </p>
-             <img src="../images/bmo1.jpg" width="300" height="300" onclick="window.open(this.src)">
-             <img src="../images/bmo2.jpg" width="300" height="300" onclick="window.open(this.src)"><br>
-             <img src="../images/bmo3.jpg" width="300" height="300" onclick="window.open(this.src)">
-             <img src="../images/bmo4.jpg" width="300" height="300" onclick="window.open(this.src)"><br><br>
-            <br>
-            
-             </section>
-          
-             </div>
-         
-     	 </article>
-         </section>
-         
-         
-            <!-- 문서의 하단 내용 -->   
-   <footer id = "foot">
-      <address><br> E-mail : icebear0425@naver.com </address>
-      <p>Copyright &copy; All right reserved </p>
-   </footer>
-   
-   </div> <!-- id container end  -->
+        <button class="turn" onclick="">turn</button> 
+        <br><br>
+        <button class="river" onclick="">river</button> 
+
+        </div>
+
+        <br><br>
+
+        <button class="fold" onclick="fold()">fold</button> 
+        <button class="bet" onclick="bet()">bet</button> 
+        <p class="txt"></p>
 
 
 </body>
