@@ -3,9 +3,186 @@
 <head>
 <meta charset="UTF-8">
 <title>My Portfolio</title>
-<link rel="stylesheet" href="../css/aboutme.css">
 
 </head>
+<style>
+    @charset "UTF-8";
+
+body {
+   font-family: 맑은 고딕, 바탕체;
+    background: radial-gradient(#FFF0F5, #d3d3eb);
+   cursor: url('https://ani.cursors-4u.net/toons/too-12/too1130.cur')
+   , auto !important;
+     text-align: center;
+      margin: 15px 400px 15px 400px; 
+     width: 1080px;   /* 문서 전체의 폭(가로) 크기 설정 */
+  }
+  
+  #container h1 {
+      font-family: 'BMJUA';
+  }
+  
+  @font-face {
+   font-family: 'BMJUA';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+  
+   @font-face {
+   font-family: 'Pretendard-Regular';
+   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
+   @font-face {
+   font-family: 'IM_Hyemin-Bold';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'SpoqaHanSansNeo-Regular';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+     #container h1{
+   font-family: 'IM_Hyemin-Bold', '맑은 고딕';
+   font-weight: bold;
+  }
+  
+     /* 전체 div 태그에 대한 디자인 적용 */
+  #container {
+     background-color: #d3d3eb;
+  }
+  
+  /* 헤더 고정. 변경하지 말기. */
+  header {
+   padding:50px;
+     height: 60px;
+     text-align:center;
+      color:    #333;
+  }
+
+  
+     /* header 영역 중에서 로그인 영역에 대한 디자인 적용 */
+  #main {
+     float: right;   /*오른쪽으로*/
+     margin: -20px 20px 0 0;   /*여백 주기*/
+     font-size: 12px;
+     text-shadow: 1px 2px 2px #666;
+  }
+  
+  /* 로그인 영역의 a링크 태그 영역 디자인 적용 */
+  #main a {
+        word-spacing: 4px;  /*글자와 글자 사이의 간격*/
+     color: #fbfdbb;
+     text-decoration: none; 
+  } 
+  
+  #main a:hover{
+        color: #05facf;
+  }
+   
+        #navi {
+     background-color: #E6E6FA;
+     width: 1080px;
+     height: 80px;
+     text-decoration: none; 
+     color: #333;
+     
+  }
+  
+     #navi ul li {
+     font-family: 맑은 고딕;
+     display: inline-block; /* 수직 메뉴를 수평으로 변경 */
+     margin: 20px 50px; /* 상하, 좌우 */
+     padding: 5px;
+     font-size: 23px;
+  }
+  
+  
+     #navi a {
+     margin-top: -15px;
+     color: #fff;
+     text-decoration: none;
+     font-weight: bold;
+     font-size: 20px;
+  }
+  
+     /* 태그에 마우스 오버 시, 클릭 시, 포커스가 올라갔을 때
+     디자인 적용 */
+      #navi a:hover, #navi a:active, #navi a:focus {
+        text-shadow: 0px 2px 2px #DB7093;
+        color: #D8BFD8;
+       transition: all ease .5s 0s;
+  }
+  
+     /* section 영역 디자인 적용 */
+      #content {
+    background-color: #FFF0F5;
+     width: 978px;
+     padding:50px; 
+     float: right;
+     border: 1px solid #a7a7d3;  /*테두리 설정*/
+
+  }
+         
+      #content article h2 {
+       font-family: 'BMJUA', '맑은 고딕';
+          font-size: 32px;
+          font-weight: bold;
+        color: #aaaaee;
+  }
+  
+         #content article h3 {
+       font-family: 'BMJUA','Pretendard-Regular';
+          font-size: 27px;
+          font-weight: bold;
+        color: #91c8ff;
+  }
+  
+         #content article p {
+       font-family: 'BMJUA', 맑은 고딕;
+          font-size: 17px;
+         color: #000000;
+  }
+  
+          #photo img{
+        border: 5px solid #E6E6FA;  /*테두리 설정*/
+                  opacity: 0.7;
+  }
+        
+         #photo img:hover {
+       border: 5px solid #E6E6FA;  /*테두리 설정*/
+       opacity: 1;
+       transform:scale(1.025);
+       transition: all ease .5s 0s;
+  }
+  
+  
+     
+    /* footer 영역 디자인 적용 */
+     #foot {
+         font-family: 맑은 고딕;
+        text-align: center;
+        font-size: 15px;
+        background-color: #E6E6FA;
+        color: #9370DB;
+        padding: 5px 0;
+        clear: both;     /*float 속성 해제 */
+     }
+     
+     
+     
+
+     
+</style>
+
 <body>
 
 	  <div id="container">
