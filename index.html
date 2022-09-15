@@ -1,43 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script></title>
-
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="../css/aboutme.css">
 
 </head>
 <body>
 
-    <button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
+	  <div id="container">
+   
+      <header id="head"> <!-- 웹 문서의 상단 영역 -->
+         <div id= "main">
+         <a href="aboutme.html">  HOME  </a>
+         <a href="uidesign.html">  HELLO  </a>
+           <img src="../images/bmo.png" width="25" height="25">
+         
+         </div> <!-- id="login" end -->
 
-<button type="button" class="btn btn-link">Link</button>
+         <h1> My Portfolio </h1>  
+      </header>
+      
+      
+      
+         <!-- 웹 문서의 네비게이션 영역 - 메뉴가 설정되는 영역 - -->
+   <nav id = "navi">
+      <ul>
+      
+          <li> <a href = "aboutme.html"> A B O U T &nbsp; M E  </a></li>
+         <li> <a href = "resume.html"> R E S U M E  </a></li>
+         <li> <a href = "portfolio.html"> P O R T F O L I O </a></li>
+         <li> <a href = "contact.html"> C O N T A C T </a></li>
+         
+      </ul>
+   </nav>
+      
+      
+      <!-- 웹 문서의 영역 설정 태그. - section 태그는 여러 번 사용이 가능함. - -->
+  			 <section id="content">
 
-<br>
+		      <!-- section 영역의 본문 -->
+		      <article>
+      
+               <div>
+         
+            <img src="meme.png" width="200" height="200">
+      		<br><br><br>
+     
+          <img src="../images/mymelody.png" width="40" height="40">
+          <img src="../images/mymelody.png" width="40" height="40">
+          <img src="../images/mymelody.png" width="40" height="40">
 
-<div class="btn-group">
+	
+	         <h2> A B O U T &nbsp; M E </h2> <br>
+	         <h3> Name </h3> 
+	         <p>  공현진(Kong hyunjin) </p>  
+	        <br>
+	        <h3> Birth </h3> 
+	        <p>  1995.04.25 </p> 
+	        <br>
+	        <h3> E-mail </h3> 
+            <p> icebear0425@naver.com </p>
+            <br>
+            <h3> Phone </h3> 
+            <p> 010-3903-8358 </p>
+            <br>
+                
+                
+                  <section id="photo">      
+             <h3> <br> LIKES </h3>
+             
+               <p>  <br> Travel </p>
+         <img src="../images/travel1.jpg" width="300" height="300" onclick="window.open(this.src)">
+         <img src="../images/travel2.jpg" width="300" height="300" onclick="window.open(this.src)"><br>
+      	 <img src="../images/travel3.jpg" width="300" height="300" onclick="window.open(this.src)">
+         <img src="../images/travel4.jpg" width="300" height="300" onclick="window.open(this.src)">
+                      
+               
+               <p>  <br> My cat  </p>
+             <img src="../images/bmo1.jpg" width="300" height="300" onclick="window.open(this.src)">
+             <img src="../images/bmo2.jpg" width="300" height="300" onclick="window.open(this.src)"><br>
+             <img src="../images/bmo3.jpg" width="300" height="300" onclick="window.open(this.src)">
+             <img src="../images/bmo4.jpg" width="300" height="300" onclick="window.open(this.src)"><br><br>
+            <br>
+            
+             </section>
+          
+             </div>
+         
+     	 </article>
+         </section>
+         
+         
+            <!-- 문서의 하단 내용 -->   
+   <footer id = "foot">
+      <address><br> E-mail : icebear0425@naver.com </address>
+      <p>Copyright &copy; All right reserved </p>
+   </footer>
+   
+   </div> <!-- id container end  -->
 
-
-
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
-<button type="button" class="btn btn-link">Link</button>
-</div>
 
 </body>
 </html>
